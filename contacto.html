@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integra APP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+</head>
+<body>
+<header id="mapa">
+            <a href="" class="brand">Integra</a>
+            <div class="menu-btn"></div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="index.html">Inicio</a>
+                    <a href="serviciosfront.html">Servicios</a>
+                    <a href="about.html">Quienes Somos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="ubicacion.html">Ubicacion</a>
+                    <a href="login">Iniciar Sesion</a>
+                </div>
+            </div>
+        </header>
+        <section class="home">
+            <video src="img/Background.mp4" class="video-slider active" autoplay muted loop></video>
+            <div class="content active">
+                <h1>Contacto.</h1>
+                <form name="sentMessage" id="contactForm" novalidate="">
+            <div class="row">
+              <div class="col-md-6">
+              <label for="correo"> Nombre </label>
+                <div class="campo">
+                  <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <label for="correo"> Correo </label>
+                <div class="campo">
+                
+                  <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <label for="correo"> Numero Telefonico </label>
+                <div class="campo">
+                
+                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+              <label  class="label" for="correo"> Comentario </label>
+                <div class="campo">
+                
+                  <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."rows="10" cols="80"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button type="submit" class="boton">Enviar</button>
+              </div>
+            </div>
+          </form>
+            </div>
+            
+            <div class="media-icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+           
+        </section>
+      
+            <script src='/build/js/nav.js'></script>
+</body>
+</html>

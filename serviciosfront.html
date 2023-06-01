@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Integra APP</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/app.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header id="mapa">
+            <a href="" class="brand">Integra</a>
+            <div class="menu-btn"></div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="index.html">Inicio</a>
+                    <a href="serviciosfront.html">Servicios</a>
+                    <a href="about.html">Quienes Somos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="ubicacion.html">Ubicacion</a>
+                    <a href="login">Iniciar Sesion</a>
+                </div>
+            </div>
+        </header>
+        <section class="home">
+            <video
+                src="img/video3.mp4"
+                class="video-slider active"
+                autoplay
+                muted
+                loop
+            ></video>
+
+            <div class="content active">
+                <h1>Servicios</h1>
+                <div id="servicio" class="listado-servicios">
+                    <div class="servicio" data-id-servicio="undefined">
+                        <p class="nombre-servicio">Nutricion</p>
+                        <p class="precio-servicio">$320.00</p>
+                        <p class="descripcion-servicio">
+                            Es una cita de nutriicion
+                        </p>
+                    </div>
+                    <div class="servicio" data-id-servicio="undefined">
+                        <p class="nombre-servicio">Psicologia</p>
+                        <p class="precio-servicio">$200.00</p>
+                        <p class="descripcion-servicio">
+                            Es una cita de Psicologia
+                        </p>
+                    </div>
+                    <div class="servicio" data-id-servicio="undefined">
+                        <p class="nombre-servicio">Fisioterapia</p>
+                        <p class="precio-servicio">$400.00</p>
+                        <p class="descripcion-servicio">Es una cita de Fisio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <script src="/build/js/nav.js"></script>
+    </body>
+</html>
